@@ -1,0 +1,1 @@
+﻿document.getElementById('the-chosen-one').innerHTML = "This is my message to you";
