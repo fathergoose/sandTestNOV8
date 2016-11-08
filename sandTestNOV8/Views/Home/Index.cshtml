@@ -15,6 +15,11 @@
     <h1>@ViewBag.Title</h1>
 </header>
 <h1 id="the-chosen-one"></h1>
+<div ng-app="app">
+    <div ng-controller="main-ctl">
+        {{"angular is" + "working"}}
+    </div>
+</div>
 <div id="main-content">
 @if (@User.Identity.IsAuthenticated)
 {
